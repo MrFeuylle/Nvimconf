@@ -81,7 +81,6 @@ call plug#begin()
 	Plug 'ervandew/supertab'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'preservim/nerdtree'
 	Plug 'voldikss/vim-floaterm'
 	Plug 'morhetz/gruvbox'
 	Plug 'prabirshrestha/vim-lsp'
@@ -90,7 +89,6 @@ call plug#begin()
 	Plug 'ntpeters/vim-airline-colornum'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
-	"	Plug 'chilledheart/vim-clangd'
 call plug#end()
 
 
@@ -127,22 +125,6 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline_theme='edge'
-let g:airline_theme='everforest'
-
-"""""""""""""""""""""""""""""""""""""""""""""
-"              		 NERDTREE 
-"""""""""""""""""""""""""""""""""""""""""""""
-
-" Start NERDTree when Vim is started without file arguments.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && !exists('b:NERDTree') | NERDTree | wincmd p | endif
-" Exit Vim if NERDTree is the only window remaining in the only tab.
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-" Open the existing NERDTree on each new tab.
-autocmd BufWinEnter * if getcmdwintype() == '' && !exists('b:NERDTree') | silent NERDTreeMirror | endif
-" Refresh NERDTREE whith <cr>r
-nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
-
 
 """""""""""""""""""""""""""""""""""""""""""""
 "              		  COLOR CODEeD
