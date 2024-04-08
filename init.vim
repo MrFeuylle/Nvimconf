@@ -70,7 +70,6 @@ call plug#begin()
 	Plug 'prabirshrestha/vim-lsp'
 	Plug 'myusuf3/numbers.vim'
 	Plug 'scrooloose/syntastic'
-	Plug 'ntpeters/vim-airline-colornum'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
 call plug#end()
