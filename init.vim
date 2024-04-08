@@ -85,7 +85,6 @@ call plug#begin()
 	Plug 'voldikss/vim-floaterm'
 	Plug 'morhetz/gruvbox'
 	Plug 'prabirshrestha/vim-lsp'
-	Plug 'sainnhe/everforest'
 	Plug 'myusuf3/numbers.vim'
 	Plug 'scrooloose/syntastic'
 	Plug 'ntpeters/vim-airline-colornum'
