@@ -63,8 +63,6 @@ call plug#begin()
 	Plug 'edkolev/tmuxline.vim'
 	Plug 'sainnhe/edge'
 	Plug 'ervandew/supertab'
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
 	Plug 'voldikss/vim-floaterm'
 	Plug 'morhetz/gruvbox'
 	Plug 'prabirshrestha/vim-lsp'
