@@ -74,8 +74,15 @@ call plug#begin()
 	Plug 'ntpeters/vim-airline-colornum'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
+	Plug 'rebelot/kanagawa.nvim'
 call plug#end()
 
+
+"""""""""""""""""""""""""""""""""""""""""""""
+"			KANAGAWA
+"""""""""""""""""""""""""""""""""""""""""""""
+let g:colorscheme kanagawa
+let g:colors_name kanagawa
 """""""""""""""""""""""""""""""""""""""""""""
 "              		  AIRLINE
 """""""""""""""""""""""""""""""""""""""""""""
