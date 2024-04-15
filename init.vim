@@ -73,7 +73,6 @@ call plug#begin()
 	Plug 'voldikss/vim-floaterm'
 	Plug 'morhetz/gruvbox'
 	Plug 'prabirshrestha/vim-lsp'
-	Plug 'sainnhe/everforest'
 	Plug 'myusuf3/numbers.vim'
 	Plug 'scrooloose/syntastic'
 	Plug 'ntpeters/vim-airline-colornum'
@@ -139,19 +138,6 @@ nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 """""""""""""""""""""""""""""""""""""""""""""
 let g:color_coded_enabled = 1
 let g:color_coded_filetypes = ['c', 'cpp', 'objc']
-
-"""""""""""""""""""""""""""""""""""""""""""""
-"              		  EVERFOREST
-"""""""""""""""""""""""""""""""""""""""""""""
-
-if has('termguicolors')
-	set termguicolors
-endif
-" The configuration options should be placed before `colorscheme edge`.
-set background=dark
-let g:everforest_background = 'hard'
-colorscheme everforest
-
 
 """""""""""""""""""""""""""""""""""""""""""""
 "              		  SYNTASTIC
