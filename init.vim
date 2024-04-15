@@ -96,3 +96,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"""""""""""""""""""""""""""""""""""""""""""""
+"              		  CURSORLINE
+"""""""""""""""""""""""""""""""""""""""""""""
+let g:airline_colornum_enabled = 1
+set cursorline
