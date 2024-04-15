@@ -74,8 +74,6 @@ call plug#begin()
 	Plug 'ntpeters/vim-airline-colornum'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
-	"	Plug 'chilledheart/vim-clangd'
-	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""
