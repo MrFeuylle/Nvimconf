@@ -81,12 +81,12 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""
 "			KANAGAWA
 """""""""""""""""""""""""""""""""""""""""""""
-let g:colorscheme kanagawa
-let g:colors_name kanagawa
+vim.cmd("colorscheme kanagawa-lotus")
 """""""""""""""""""""""""""""""""""""""""""""
 "              		  AIRLINE
 """""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='kanagawa-lotus'
 
 """""""""""""""""""""""""""""""""""""""""""""
 "              		  COLOR CODEeD
